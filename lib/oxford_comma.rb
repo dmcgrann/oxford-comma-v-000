@@ -9,4 +9,5 @@ end
 def oxford_comma(array)
   if array.size = 3
     puts "'', '', 'and' ''"
+  end
 end
