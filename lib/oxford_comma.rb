@@ -7,5 +7,5 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  array.insert(-2, "and")
+  array.insert(-2, "and").to_s
 end
