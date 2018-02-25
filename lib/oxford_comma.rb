@@ -7,5 +7,6 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
-  array.each { |i| array[-1] << "and"}
+  if array.size = 3
+    puts "'', '', 'and' ''"
 end
