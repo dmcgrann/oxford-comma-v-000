@@ -7,6 +7,6 @@ def oxford_comma(array)
     array1 = "and #{array[-1]}"
     array.pop
     array.push(array1)
-    array.join(" , ")
+    array.join(", ")
   end
 end
